@@ -19,11 +19,11 @@ Dependency:
 -----------
 Please install boost, you can use the following version or other version. [boost_1_46_1.tar.gz](http://grid.hust.edu.cn/triplebit/boost_1_46_1.tar.gz) next lines are the way to install boost<br>
 
-`tar -zxvf boost_1_46_1.tar.gz`<br>
-`cd boost_1_46_1` <br>
-`./bootstrap.sh` <br>
-`./bjam` <br>
-`cp -r boost/ /usr/local/include/` <br>
+		`tar -zxvf boost_1_46_1.tar.gz`<br>
+		`cd boost_1_46_1` <br>
+		`./bootstrap.sh` <br>
+		`./bjam` <br>
+		`cp -r boost/ /usr/local/include/` <br>
 
 Building:
 ---------
@@ -37,14 +37,14 @@ Using:
 TripleBit currently includes two high-level executables. The first (buildTripleBitFromN3)
 is used to build a new database from an turtle/ntriples input: <br>
 
-   `buildTripleBitFromN3 mydata.n3 database_directory`
+		`buildTripleBitFromN3 mydata.n3 database_directory`
 
 The input file can be arbitrarily large, the buildTripleBitFromN3 spools to disk if
 main memory is exhausted.<br>
 
 After loading the database can be queried with triplebitQuery: <br>
 
-   `triplebitQuery database_directory query_directory`
+   		`triplebitQuery database_directory query_directory`
 
 The program shows a command prompt and accept SPARQL queries.<br>
 
