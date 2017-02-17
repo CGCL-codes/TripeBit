@@ -55,3 +55,15 @@ After loading the database can be queried with triplebitQuery:
 The program shows a command prompt and accept SPARQL queries.
 
 Note: TripleBit currently only supports "select" queries.
+
+
+Publication:
+
+Pingpeng Yuan, Pu Liu, Buwen Wu, Ling Liu, Hai Jin, and Wenya Zhang. TripleBit: a Fast and Compact System for Large Scale RDF Data. PVLDB, 6(7):517-528, 2013.
+Buwen Wu, Yongluan Zhou, Pingpeng Yuan, Hai Jin, Ling Liu. SemStore: A Semantic-Preserving Distributed RDF Triple Store. CIKM 2014, Shanghai, China, Nov 3-7, 2014.
+Pingpeng Yuan, Wenya Zhang, Changfeng Xie, Ling Liu, Hai Jin, Kisung Lee. Fast Iterative Graph Computation: A Path Centric Approach. SC 2014, New Orleans, USA, Nov.16-21, 2014.
+Buwen Wu, Yongluan Zhou, Pingpeng Yuan, Ling Liu and Hai Jin. Scalable SPARQL Querying using Path Partitioning. ICDE 2015, Seoul, Korea, April 13-16, 2015.
+
+Support or Contact
+
+DGraph is developed in the [HUST SCTS&CGCL Lab](http://grid.hust.edu.cn/). If you have any questions, please contact Pingpeng Yuan(`ppyuan@hust.edu.cn`). We welcome you to commit your modification to support our project.
