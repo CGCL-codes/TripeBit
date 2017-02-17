@@ -19,14 +19,15 @@ Dependency:
 -----------
 Please install boost, you can use the following version or other version.
 
-boost_1_46_1.tar.gz
+  [boost_1_46_1.tar.gz](http://grid.hust.edu.cn/triplebit/boost_1_46_1.tar.gz)
 
-next lines are the way to install boost
-# tar -zxvf boost_1_46_1.tar.gz
-# cd boost_1_46_1
-# ./bootstrap.sh
-# ./bjam
-# cp -r boost/ /usr/local/include/
+next lines are the way to install boost<br>
+
+tar -zxvf boost_1_46_1.tar.gz<br>
+cd boost_1_46_1 <br>
+./bootstrap.sh <br>
+./bjam <br>
+cp -r boost/ /usr/local/include/ <br>
 
 Building:
 ---------
@@ -59,11 +60,20 @@ Note: TripleBit currently only supports "select" queries.
 
 Publication:
 
-Pingpeng Yuan, Pu Liu, Buwen Wu, Ling Liu, Hai Jin, and Wenya Zhang. TripleBit: a Fast and Compact System for Large Scale RDF Data. PVLDB, 6(7):517-528, 2013.
-Buwen Wu, Yongluan Zhou, Pingpeng Yuan, Hai Jin, Ling Liu. SemStore: A Semantic-Preserving Distributed RDF Triple Store. CIKM 2014, Shanghai, China, Nov 3-7, 2014.
-Pingpeng Yuan, Wenya Zhang, Changfeng Xie, Ling Liu, Hai Jin, Kisung Lee. Fast Iterative Graph Computation: A Path Centric Approach. SC 2014, New Orleans, USA, Nov.16-21, 2014.
-Buwen Wu, Yongluan Zhou, Pingpeng Yuan, Ling Liu and Hai Jin. Scalable SPARQL Querying using Path Partitioning. ICDE 2015, Seoul, Korea, April 13-16, 2015.
+Pingpeng Yuan, Pu Liu, Buwen Wu, Ling Liu, Hai Jin, and Wenya Zhang. [TripleBit: a Fast and Compact System for Large Scale RDF Data.](http://grid.hust.edu.cn/triplebit/TripleBit_VLDB2013.pdf) PVLDB, 6(7):517-528, 2013.<br>
+Buwen Wu, Yongluan Zhou, Pingpeng Yuan, Hai Jin, Ling Liu. [SemStore: A Semantic-Preserving Distributed RDF Triple Store.](http://grid.hust.edu.cn/triplebit/SemStore_CIKM2014.pdf) CIKM 2014, Shanghai, China, Nov 3-7, 2014.<br>
+Pingpeng Yuan, Wenya Zhang, Changfeng Xie, Ling Liu, Hai Jin, Kisung Lee. [Fast Iterative Graph Computation: A Path Centric Approach.](http://grid.hust.edu.cn/triplebit/PathGraph_SC2014.pdf) SC 2014, New Orleans, USA, Nov.16-21, 2014.<br>
+Buwen Wu, Yongluan Zhou, Pingpeng Yuan, Ling Liu and Hai Jin. [Scalable SPARQL Querying using Path Partitioning.](http://grid.hust.edu.cn/triplebit/icde2015-Wu.pdf) ICDE 2015, Seoul, Korea, April 13-16, 2015.<br>
+
+
+Useful Link:
+
+[TripleBit FAQ](http://grid.hust.edu.cn/triplebit/faq.html)<br>
+[LUBM](http://swat.cse.lehigh.edu/projects/lubm/)<br>
+[Uniprot](http://www.uniprot.org/) & [Uniprot Dataset](ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/)<br>
+[BTC](http://km.aifb.kit.edu/projects/btc-2012/)<br>
+[Dataset Sample](http://grid.hust.edu.cn/triplebit/examples.tar.gz)<br>
 
 Support or Contact
 
-DGraph is developed in the [HUST SCTS&CGCL Lab](http://grid.hust.edu.cn/). If you have any questions, please contact Pingpeng Yuan(`ppyuan@hust.edu.cn`). We welcome you to commit your modification to support our project.
+TripleBit is developed in the [HUST SCTS&CGCL Lab](http://grid.hust.edu.cn/). If you have any questions, please contact Pingpeng Yuan(ppyuan@hust.edu.cn). We welcome you to commit your modification to support our project.
