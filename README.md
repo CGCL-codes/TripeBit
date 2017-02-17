@@ -17,48 +17,43 @@ San Francisco, California, 94105, USA.
 
 Dependency:
 -----------
-Please install boost, you can use the following version or other version.
+Please install boost, you can use the following version or other version. [boost_1_46_1.tar.gz](http://grid.hust.edu.cn/triplebit/boost_1_46_1.tar.gz) next lines are the way to install boost<br>
 
-  [boost_1_46_1.tar.gz](http://grid.hust.edu.cn/triplebit/boost_1_46_1.tar.gz)
-
-next lines are the way to install boost<br>
-
-tar -zxvf boost_1_46_1.tar.gz<br>
-cd boost_1_46_1 <br>
-./bootstrap.sh <br>
-./bjam <br>
-cp -r boost/ /usr/local/include/ <br>
+`tar -zxvf boost_1_46_1.tar.gz`<br>
+`cd boost_1_46_1` <br>
+`./bootstrap.sh` <br>
+`./bjam` <br>
+`cp -r boost/ /usr/local/include/` <br>
 
 Building:
 ---------
 
-TripleBit must be build using GNU make and a reasonable C++ compiler. Ideally a simple
+TripleBit must be build using GNU make and a reasonable C++ compiler. Ideally a simple  "`make`" is enough, it will build the tree high-level executables in bin/lrelease/.
 
-   make
-
-is enough, it will build the tree high-level executables in bin/lrelease/.
 
 Using:
 ------
 
 TripleBit currently includes two high-level executables. The first (buildTripleBitFromN3)
-is used to build a new database from an turtle/ntriples input:
+is used to build a new database from an turtle/ntriples input: <br>
 
-   buildTripleBitFromN3 mydata.n3 database_directory
+   `buildTripleBitFromN3 mydata.n3 database_directory`
 
 The input file can be arbitrarily large, the buildTripleBitFromN3 spools to disk if
-main memory is exhausted.
+main memory is exhausted.<br>
 
-After loading the database can be queried with triplebitQuery:
+After loading the database can be queried with triplebitQuery: <br>
 
-   triplebitQuery database_directory query_directory
+   `triplebitQuery database_directory query_directory`
 
-The program shows a command prompt and accept SPARQL queries.
+The program shows a command prompt and accept SPARQL queries.<br>
 
 Note: TripleBit currently only supports "select" queries.
 
 
+
 Publication:
+------
 
 Pingpeng Yuan, Pu Liu, Buwen Wu, Ling Liu, Hai Jin, and Wenya Zhang. [TripleBit: a Fast and Compact System for Large Scale RDF Data.](http://grid.hust.edu.cn/triplebit/TripleBit_VLDB2013.pdf) PVLDB, 6(7):517-528, 2013.<br>
 Buwen Wu, Yongluan Zhou, Pingpeng Yuan, Hai Jin, Ling Liu. [SemStore: A Semantic-Preserving Distributed RDF Triple Store.](http://grid.hust.edu.cn/triplebit/SemStore_CIKM2014.pdf) CIKM 2014, Shanghai, China, Nov 3-7, 2014.<br>
@@ -66,14 +61,17 @@ Pingpeng Yuan, Wenya Zhang, Changfeng Xie, Ling Liu, Hai Jin, Kisung Lee. [Fast 
 Buwen Wu, Yongluan Zhou, Pingpeng Yuan, Ling Liu and Hai Jin. [Scalable SPARQL Querying using Path Partitioning.](http://grid.hust.edu.cn/triplebit/icde2015-Wu.pdf) ICDE 2015, Seoul, Korea, April 13-16, 2015.<br>
 
 
-Useful Link:
 
+Useful Link:
+------
 [TripleBit FAQ](http://grid.hust.edu.cn/triplebit/faq.html)<br>
 [LUBM](http://swat.cse.lehigh.edu/projects/lubm/)<br>
 [Uniprot](http://www.uniprot.org/) & [Uniprot Dataset](ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/)<br>
 [BTC](http://km.aifb.kit.edu/projects/btc-2012/)<br>
 [Dataset Sample](http://grid.hust.edu.cn/triplebit/examples.tar.gz)<br>
 
-Support or Contact
 
+
+Support or Contact
+------
 TripleBit is developed in the [HUST SCTS&CGCL Lab](http://grid.hust.edu.cn/). If you have any questions, please contact Pingpeng Yuan(ppyuan@hust.edu.cn). We welcome you to commit your modification to support our project.
